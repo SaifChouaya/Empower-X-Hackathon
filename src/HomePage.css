@@ -1,0 +1,234 @@
+/* HomePage.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #8a2be2;
+    padding: 10px 20px;
+  }
+  
+  .logo-image {
+    width: 200px;
+    height: auto;
+    margin-right: 5px;
+  }
+  
+  .nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+  }
+  
+  .contact-button {
+    background-color: #f0f0f0;
+    color: #8a2be2;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .contact-button:hover {
+    background-color: #8a2be2;
+    color: white;
+  }
+  
+  .main-content {
+    padding: 50px 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+  }
+  
+  .certificate-image {
+    width: 200px;
+    height: auto;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    position: absolute;
+    right: 10%;
+  }
+  
+  .main-content h1 {
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  .main-content p {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .features {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    gap: 20px; /* Add padding between the feature cards */
+  }
+  
+  .feature {
+    width: 30%;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    text-align: center;
+  }
+  
+  .feature:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .feature img {
+    width: 50px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .feature h2 {
+    color: #8a2be2;
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+  }
+  
+  .feature p {
+    color: #666;
+    font-size: 0.95rem;
+  }
+
+  .text-container {
+    margin-right: 300px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+  }
+  
+  
+
+  /*Secion 2 CSS*/
+.App {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 10vh; 
+    margin-bottom: 5vh;
+  }
+  
+  .App-header {
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    max-width: 800px; 
+  }
+  
+  .App-header img {
+    margin-bottom: 20px;
+  }
+  
+  .App-header p {
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+  
+  .App-header a {
+    color: #007bff;
+    text-decoration: none;
+    padding: 5px 10px;
+    border: 1px solid #007bff;
+    border-radius: 3px;
+  }
+  
+  .App-header a:hover {
+    background-color: #007bff;
+    color: #fff;
+  }
+
+
+
+  /* Section 3 CSS*/
+.mobile {
+    width: 100%; /* Set width for the mobile frame */
+    margin: 0 auto; /* Center the mobile frame horizontally */
+    border-radius: 10px; /* Add rounded corners */
+    background-color: #f0f0f0; /* Set background color */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Add subtle shadow */
+    padding: 10px; /* Add some padding inside the mobile frame */
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Stack elements vertically */
+  }
+  
+  .mobile-header {
+    background-color: #e0e0e0; /* Set header background color */
+    padding: 5px;
+    border-top-left-radius: 10px; /* Maintain rounded corners for header */
+    border-top-right-radius: 10px; /* Maintain rounded corners for header */
+    display: flex; /* Use flexbox for header layout */
+    justify-content: space-between; /* Distribute header content horizontally */
+    align-items: center; /* Align header content vertically */
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+  }
+  
+  .mobile-header-text {
+    color: #333; 
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 5px;
+  }
+  
+  .mobile-content-top {
+    flex-grow: 1;
+    text-align: left;
+    padding-left: 20px;
+    color: rgb(54, 27, 188);
+    font-weight: bold;
+    
+  }
+  
+  
+  .mobile-content-bottom {
+    font-size: 0.9rem; /* Adjust font size for readability */
+    color: #333; /* Text color */
+    text-align: left;
+  }
+
+  .bullet-list {
+    text-align: left;
+    margin-left: 40px;
+  }
+
+  .mobile-join {
+    border: 1px solid #333; /* Border style */
+    padding: 10px; /* Padding for space around text */
+    width:200px;
+    margin-left: 50px;
+    border-top-right-radius: 30px; 
+    border-bottom-right-radius: 30px; 
+    border-width: 2px;
+    border-color: rgb(54, 27, 188);
+    content: "\2192"; /* Arrow icon */
+  }
+  
+  .arrow {
+    vertical-align: middle;
+    padding-left: 15px;
+  }
+
+  .container {
+    border-radius: 10px; /* Add a border radius for rounded corners */
+    background-color: #f0dff4; /* Add a background color */
+    padding: 20px; /* Add some padding for spacing */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a shadow for depth */
+    margin-bottom: 20px;
+  }
